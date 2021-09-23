@@ -30,7 +30,7 @@ service mobicore /vendor/bin/mcDriverDaemon --P1 /mnt/vendor/persist/mcRegistry 
     seclabel u:r:recovery:s0
 
 #Add for OPPO FBE
-service hal_cryptoeng_oppo /system/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service
+service hal_cryptoeng_oppo /system/bin/hw/vendor.oppo.hardware.cryptoeng@1.0-service
     user root
     group root drmrpc
     disabled
